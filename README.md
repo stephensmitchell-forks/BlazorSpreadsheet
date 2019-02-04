@@ -7,9 +7,7 @@ This repo contains spreadsheet protopype for Blazor.
 
 You can set values to any cell, also set formulas for basic aritmetic calculations.
 
-In formula can be included another cells using their addresses.
-
-When you select cell all referenced cells get highlighted.
+In formula can be included another cells using their addresses, when you select cell all referenced cells get highlighted.
 
 Calculations are made using **recursion** because there can be multiple level dependencies, any **circuit references** are detected and restricted.
 
