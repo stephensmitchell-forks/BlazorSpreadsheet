@@ -9,13 +9,14 @@ You can set values to any cell, also set formulas for basic aritmetic calculatio
 
 In formula can be included another cells using their addresses.
 
-When you select cell all referenced cells are geting highlighted.
+When you select cell all referenced cells get highlighted.
 
-Calculations are made using **recursion** and any **circuit references** are detected and restricted.
+Calculations are made using **recursion** because there can be multiple level dependencies, any **circuit references** are detected and restricted.
 
 
 
 Any PRs are welcome.
+
 
 ![image](https://raw.githubusercontent.com/Lupusa87/BlazorSpreadsheet/master/spreadsheet.png)
 
