@@ -1,9 +1,6 @@
 # Blazor Spreadsheet
 
 
-# Blazor WebSocket Helper
-
-
 This repo contains spreadsheet protopype for Blazor.
 
 [live demo](https://lupblazordemos.z13.web.core.windows.net/SpreadsheetPage)
@@ -20,7 +17,7 @@ Calculations are made using **recursion** and any **circuit references** are det
 
 Any PRs are welcome.
 
-![image](https://raw.githubusercontent.com/Lupusa87/BlazorSpreadsheet/master/Spreadsheet.png)
+![image](https://raw.githubusercontent.com/Lupusa87/BlazorSpreadsheet/master/spreadsheet.png)
 
 
 
