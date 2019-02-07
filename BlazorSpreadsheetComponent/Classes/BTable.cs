@@ -223,9 +223,6 @@ namespace BlazorSpreadsheetComponent.Classes
                 BackgroundColor = "wheat",
             };
 
-
-
-
         }
 
         public void HiglightCell(BCell Par_BCell, string Par_Color)

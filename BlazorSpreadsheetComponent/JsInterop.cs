@@ -9,7 +9,7 @@ namespace BlazorSpreadsheetComponent
         {
             
             return JSRuntime.Current.InvokeAsync<string>(
-                "BlazorSpreadsheetCopmJsFunctions.showPrompt",
+                "BlazorSpreadsheetCompJsFunctions.showPrompt",
                 message);
         }
 
@@ -17,7 +17,7 @@ namespace BlazorSpreadsheetComponent
         {
             
             return JSRuntime.Current.InvokeAsync<string>(
-                "BlazorSpreadsheetCopmJsFunctions.alert",
+                "BlazorSpreadsheetCompJsFunctions.alert",
                 message);
         }
     }

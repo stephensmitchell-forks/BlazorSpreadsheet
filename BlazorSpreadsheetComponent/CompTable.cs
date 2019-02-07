@@ -1,7 +1,7 @@
 ﻿using BlazorSpreadsheetComponent.BussinesLayer;
 using BlazorSpreadsheetComponent.Classes;
-using Microsoft.AspNetCore.Blazor.Components;
-using Microsoft.AspNetCore.Blazor.RenderTree;
+using Microsoft.AspNetCore.Components;
+using Microsoft.AspNetCore.Components.RenderTree;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,10 +9,10 @@ using System.Threading.Tasks;
 
 namespace BlazorSpreadsheetComponent
 {
-    public class CompTable:BlazorComponent,IDisposable
+    public class CompTable:ComponentBase,IDisposable
     {
         [Parameter]
-        public BlazorComponent parent { get; set; }
+        public ComponentBase parent { get; set; }
 
 
         protected void Cmd_RenderTable(RenderTreeBuilder builder)

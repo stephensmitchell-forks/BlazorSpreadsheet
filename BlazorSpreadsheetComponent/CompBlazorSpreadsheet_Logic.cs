@@ -1,6 +1,6 @@
 ﻿using BlazorSpreadsheetComponent.BussinesLayer;
 using BlazorSpreadsheetComponent.Classes;
-using Microsoft.AspNetCore.Blazor.Components;
+using Microsoft.AspNetCore.Components;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace BlazorSpreadsheetComponent
 {
-    public class CompBlazorSpreadsheet_Logic : BlazorComponent
+    public class CompBlazorSpreadsheet_Logic : ComponentBase
     {
         public string Curr_Value = string.Empty;
         public string Curr_Value_old = string.Empty;

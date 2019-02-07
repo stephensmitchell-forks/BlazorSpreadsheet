@@ -1,4 +1,4 @@
-window.BlazorSpreadsheetCopmJsFunctions = {
+window.BlazorSpreadsheetCompJsFunctions = {
   showPrompt: function (message) {
     return prompt(message, 'Type anything here');
     },
